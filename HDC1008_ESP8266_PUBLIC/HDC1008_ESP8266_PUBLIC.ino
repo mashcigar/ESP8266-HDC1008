@@ -104,8 +104,8 @@ void setup() {
   // connect to adafruit io
   connect();
 
-  // Set SDA and SDL ports from HDC1008 to ESP8266 Huzzah Feather GPIO pins.
-  Wire.begin(2, 14); //connect HDC1008 SDA to GPIO 2 and SDL to GPIO 14.
+  // Set SDA and SCL ports from HDC1008 to ESP8266 Huzzah Feather GPIO pins.
+  Wire.begin(2, 14); //connect HDC1008 SDA to GPIO 2 and SCL to GPIO 14.
 
 }
 
